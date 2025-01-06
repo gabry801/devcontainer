@@ -1,7 +1,6 @@
 #!/bin/bash
-#sudo apt update
+sudo apt update
 # Install some of my favorite tools every time my workspace boots
-#sudo apt install -y neovim fish cargo
-python3 -m venv test
-source test/bin/activate
+sudo apt install -y neovim fish cargo
+
 
