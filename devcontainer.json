@@ -1,3 +1,5 @@
+{
 "features": {
     "ghcr.io/devcontainers/features/go:1.0.0":  "1.18"
+  }
 }
