@@ -1,6 +1,6 @@
 {
   "name": "Customized Dev Env",
-  "image": "alpine:latest",
+  "image": "ubuntu:latest",
   "features": {
     "ghcr.io/devcontainers/features/git": {}
   },
