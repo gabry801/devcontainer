@@ -1,5 +1,5 @@
 {
-  "name": "DevContainer Test",
-  "image": "alpine:latest",
-  "postCreateCommand": "echo 'Hello from DevContainer' > hello.txt",
+"features": {
+    "ghcr.io/devcontainers/features/go:1": {}
+  }
 }
