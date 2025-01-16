@@ -1,5 +1,5 @@
 {
   "name": "DevContainer Test",
-  "image": "ensignprojects/ubuntu-curl",
+  "image": "ensignprojects/ubuntu-curl:latest",
   "postCreateCommand": "echo 'Hello from DevContainer' > hello.txt",
 }
