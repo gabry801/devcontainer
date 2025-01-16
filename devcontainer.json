@@ -1,9 +1,9 @@
 {
   "name": "Alpine DevContainer",
   "image": "alpine:latest",
-  "postCreateCommand": "echo 'Hello from DevContainer' > /workspace/hello.txt",
+  "postCreateCommand": "echo 'Hello from DevContainer' > /workspaces/hello.txt",
   "mounts": [
-    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    "source=${localWorkspaceFolder},target=/workspaces,type=bind"
   ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/sh"
