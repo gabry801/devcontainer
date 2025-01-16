@@ -1,5 +1,5 @@
 {
   "name": "DevContainer Test",
-  "image": "crdewccde.azurecr.io/docker.io/codercom/enterprise-base:ubuntu",
+  "image": "ubuntu:latest",
   "postCreateCommand": "echo 'Hello from DevContainer' > /home/coder/hello.txt",
 }
